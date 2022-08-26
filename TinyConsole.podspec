@@ -34,6 +34,6 @@ Shows a console view on the lower bottom of your screen to display debug informa
   s.ios.deployment_target = '11.0'
 
   # s.source_files = 'TinyConsole/**/*'
-  s.source_files  = "TinyConsole", "TinyConsole/**/*.{h,m}", "TinyConsole/*.swift"
+  s.source_files  = "TinyConsole", "TinyConsole/**/*.{h,m}", "TinyConsole/*.swift", "TinyConsole/**/*.swift"
 
 end
