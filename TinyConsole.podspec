@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
 
   s.name             = 'TinyConsole'
-  s.version          = '1.3'
+  s.version          = '1.4'
   s.summary          = 'A tiny log console to display information while using your iOS app. Written in Swift 3.'
 
   s.description      = <<-DESC
@@ -36,9 +36,9 @@ Shows a console view on the lower bottom of your screen to display debug informa
   s.source_files = 'TinyConsole/**/*'
   # s.source_files  = "TinyConsole", "TinyConsole/**/*.{h,m}", "TinyConsole/*.swift", "TinyConsole/**/*.swift"
 
-  s.subspec 'Extensions' do |ss|
-    ss.source_files = 'TinyConsole/Extensions.{swift}'
-  end
+  # s.subspec 'Extensions' do |ss|
+  #   ss.source_files = 'TinyConsole/Extensions/NSAttributedStringExtensions.swft'
+  # end
   
 
 end
