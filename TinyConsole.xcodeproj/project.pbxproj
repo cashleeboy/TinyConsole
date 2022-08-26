@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		450284DE1DFD878C00922381 /* MainTableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450284DD1DFD878C00922381 /* MainTableData.swift */; };
-		455463482341729800F5B78F /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455463472341729800F5B78F /* UIViewControllerExtensions.swift */; };
-		4554634A2341773600F5B78F /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455463492341773600F5B78F /* NSAttributedStringExtensions.swift */; };
-		4554634C23418E6F00F5B78F /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554634B23418E6F00F5B78F /* UIButtonExtensions.swift */; };
 		4554634E2341901F00F5B78F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4554634D2341901F00F5B78F /* README.md */; };
 		457B894F1DF4DB74001DD49C /* TinyConsole.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4585FDCB1DEC54B800DDF5EB /* TinyConsole.framework */; };
 		457B89501DF4DB74001DD49C /* TinyConsole.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4585FDCB1DEC54B800DDF5EB /* TinyConsole.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -22,9 +19,12 @@
 		4585FDE81DEC58BB00DDF5EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585FDE71DEC58BB00DDF5EB /* MainViewController.swift */; };
 		4585FDED1DEC58BB00DDF5EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4585FDEC1DEC58BB00DDF5EB /* Assets.xcassets */; };
 		4585FDF01DEC58BB00DDF5EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4585FDEE1DEC58BB00DDF5EB /* LaunchScreen.storyboard */; };
-		45A3359A23412FB700F96AFA /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3359923412FB700F96AFA /* UIViewExtensions.swift */; };
-		45A3359C23416D5A00F96AFA /* UIAlertActionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3359B23416D5A00F96AFA /* UIAlertActionExtensions.swift */; };
-		45A3359E23416DCA00F96AFA /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A3359D23416DCA00F96AFA /* UITextViewExtensions.swift */; };
+		52FA0F3928B86FD000C9B2C9 /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3328B86FCF00C9B2C9 /* UITextViewExtensions.swift */; };
+		52FA0F3A28B86FD000C9B2C9 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3428B86FCF00C9B2C9 /* UIViewControllerExtensions.swift */; };
+		52FA0F3B28B86FD000C9B2C9 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3528B86FCF00C9B2C9 /* UIViewExtensions.swift */; };
+		52FA0F3C28B86FD000C9B2C9 /* UIAlertActionExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3628B86FCF00C9B2C9 /* UIAlertActionExtensions.swift */; };
+		52FA0F3D28B86FD000C9B2C9 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3728B86FCF00C9B2C9 /* UIButtonExtensions.swift */; };
+		52FA0F3E28B86FD000C9B2C9 /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FA0F3828B86FCF00C9B2C9 /* NSAttributedStringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,6 @@
 
 /* Begin PBXFileReference section */
 		450284DD1DFD878C00922381 /* MainTableData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableData.swift; sourceTree = "<group>"; };
-		455463472341729800F5B78F /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
-		455463492341773600F5B78F /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
-		4554634B23418E6F00F5B78F /* UIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
 		4554634D2341901F00F5B78F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4585FDCB1DEC54B800DDF5EB /* TinyConsole.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConsole.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4585FDD61DEC54D300DDF5EB /* TinyConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyConsole.h; sourceTree = "<group>"; };
@@ -68,9 +65,12 @@
 		4585FDEC1DEC58BB00DDF5EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4585FDEF1DEC58BB00DDF5EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4585FDF11DEC58BB00DDF5EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45A3359923412FB700F96AFA /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
-		45A3359B23416D5A00F96AFA /* UIAlertActionExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertActionExtensions.swift; sourceTree = "<group>"; };
-		45A3359D23416DCA00F96AFA /* UITextViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3328B86FCF00C9B2C9 /* UITextViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3428B86FCF00C9B2C9 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3528B86FCF00C9B2C9 /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3628B86FCF00C9B2C9 /* UIAlertActionExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertActionExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3728B86FCF00C9B2C9 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtensions.swift; sourceTree = "<group>"; };
+		52FA0F3828B86FCF00C9B2C9 /* NSAttributedStringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedStringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,7 @@
 				4585FDDB1DEC557000DDF5EB /* TinyConsole.swift */,
 				4585FDD91DEC552600DDF5EB /* TinyConsoleController.swift */,
 				4585FDDD1DEC559D00DDF5EB /* TinyConsoleViewController.swift */,
-				45A3359F23416DF800F96AFA /* Extensions */,
+				52FA0F3228B86FCF00C9B2C9 /* Extensions */,
 				4585FDD41DEC54D300DDF5EB /* Supporting Files */,
 			);
 			path = TinyConsole;
@@ -152,15 +152,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		45A3359F23416DF800F96AFA /* Extensions */ = {
+		52FA0F3228B86FCF00C9B2C9 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				45A3359923412FB700F96AFA /* UIViewExtensions.swift */,
-				45A3359B23416D5A00F96AFA /* UIAlertActionExtensions.swift */,
-				45A3359D23416DCA00F96AFA /* UITextViewExtensions.swift */,
-				455463472341729800F5B78F /* UIViewControllerExtensions.swift */,
-				455463492341773600F5B78F /* NSAttributedStringExtensions.swift */,
-				4554634B23418E6F00F5B78F /* UIButtonExtensions.swift */,
+				52FA0F3328B86FCF00C9B2C9 /* UITextViewExtensions.swift */,
+				52FA0F3428B86FCF00C9B2C9 /* UIViewControllerExtensions.swift */,
+				52FA0F3528B86FCF00C9B2C9 /* UIViewExtensions.swift */,
+				52FA0F3628B86FCF00C9B2C9 /* UIAlertActionExtensions.swift */,
+				52FA0F3728B86FCF00C9B2C9 /* UIButtonExtensions.swift */,
+				52FA0F3828B86FCF00C9B2C9 /* NSAttributedStringExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -282,14 +282,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4585FDDA1DEC552600DDF5EB /* TinyConsoleController.swift in Sources */,
-				4554634A2341773600F5B78F /* NSAttributedStringExtensions.swift in Sources */,
 				4585FDDE1DEC559D00DDF5EB /* TinyConsoleViewController.swift in Sources */,
-				45A3359A23412FB700F96AFA /* UIViewExtensions.swift in Sources */,
-				45A3359C23416D5A00F96AFA /* UIAlertActionExtensions.swift in Sources */,
+				52FA0F3A28B86FD000C9B2C9 /* UIViewControllerExtensions.swift in Sources */,
 				4585FDDC1DEC557000DDF5EB /* TinyConsole.swift in Sources */,
-				4554634C23418E6F00F5B78F /* UIButtonExtensions.swift in Sources */,
-				45A3359E23416DCA00F96AFA /* UITextViewExtensions.swift in Sources */,
-				455463482341729800F5B78F /* UIViewControllerExtensions.swift in Sources */,
+				52FA0F3B28B86FD000C9B2C9 /* UIViewExtensions.swift in Sources */,
+				52FA0F3E28B86FD000C9B2C9 /* NSAttributedStringExtensions.swift in Sources */,
+				52FA0F3D28B86FD000C9B2C9 /* UIButtonExtensions.swift in Sources */,
+				52FA0F3928B86FD000C9B2C9 /* UITextViewExtensions.swift in Sources */,
+				52FA0F3C28B86FD000C9B2C9 /* UIAlertActionExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
