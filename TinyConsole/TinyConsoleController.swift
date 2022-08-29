@@ -119,5 +119,8 @@ open class TinyConsoleController: UIViewController {
 
         rootViewController.view.bottomAnchor.constraint(equalTo: consoleViewController.view.topAnchor).isActive = true
     }
+    open override var childForStatusBarStyle: UIViewController? {
+        return rootViewController
+    }
 }
 
