@@ -16,9 +16,8 @@ Pod::Spec.new do |s|
   #
 
 
-
   s.name             = 'TinyConsole'
-  s.version          = '1.5.1'
+  s.version          = '1.5.1' 
   s.summary          = 'A tiny log console to display information while using your iOS app. Written in Swift 3.'
 
   s.description      = <<-DESC
